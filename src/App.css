@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+@keyframes floatGlow {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.glow-card {
+  animation: floatGlow 5s ease-in-out infinite;
+}
+
+.loader-ring {
+  animation: spinSlow 1s linear infinite;
+}
