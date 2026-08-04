@@ -51,8 +51,8 @@ const skillGroups = [
     items: [
       { name: 'Python', value: 96, icon: FaPython },
       { name: 'SQL', value: 90, icon: FaDatabase },
-      { name: 'Java', value: 78, icon: FaJava },
-      { name: 'JavaScript', value: 84, icon: FaCode },
+      { name: 'Java', value: 68, icon: FaJava },
+      { name: 'JavaScript', value: 80, icon: FaCode },
     ],
   },
   {
@@ -157,7 +157,7 @@ const achievements = [
 ]
 
 const stats = [
-  { label: 'CGPA', value: '8.9/10' },
+  { label: 'CGPA', value: '8.7/10' },
   { label: 'Projects', value: '12+' },
   { label: 'Certifications', value: '6+' },
   { label: 'Hackathons', value: '4' },
